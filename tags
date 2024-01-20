@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+LinkEg	LinkEg.java	/^public class LinkEg$/;"	c
+ListNode	ListNode.java	/^    ListNode(){}$/;"	m	class:ListNode
+ListNode	ListNode.java	/^    ListNode(int val)$/;"	m	class:ListNode
+ListNode	ListNode.java	/^    ListNode(int val,ListNode next)$/;"	m	class:ListNode
+ListNode	ListNode.java	/^public class ListNode$/;"	c
+main	LinkEg.java	/^    public static void main(String[] args)$/;"	m	class:LinkEg
+next	ListNode.java	/^    ListNode next;$/;"	f	class:ListNode
+val	ListNode.java	/^    int val;$/;"	f	class:ListNode

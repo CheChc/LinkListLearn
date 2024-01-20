@@ -36,7 +36,7 @@ public class LinkEg
 
         scanner.close();
         //ListNode current = head; 假设 head 是链表的头节点
-
+	    current=head;
         while (current != null)
         {
             System.out.print(current.val + " "); // 打印当前节点的值
