@@ -10,7 +10,7 @@ public class ReversrList
             temp = cur.next;
             cur.next = pre;
             pre = cur;
-            cur=temp;
+            cur = temp;
         }
         return pre;
     }

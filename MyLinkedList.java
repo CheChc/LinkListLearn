@@ -29,7 +29,7 @@ class MyLinkedList
         if (index < 0 || index >= size)
             return -1;
         LinkedListNode cur = head;
-        for(int i=0;i<=index;i++)
+        for (int i = 0; i <= index; i++)
         {
             cur = cur.next;
         }
@@ -57,7 +57,7 @@ class MyLinkedList
         size++;
         LinkedListNode li = new LinkedListNode(val);
         LinkedListNode cur = head;
-        for(int i=0;i<index;i++)
+        for (int i = 0; i < index; i++)
         {
             cur = cur.next;
         }
@@ -71,9 +71,9 @@ class MyLinkedList
         if (index < 0 || index >= size)
             return;
         size--;
-        if(index==0)
+        if (index == 0)
         {
-            head=head.next;
+            head = head.next;
         }
         LinkedListNode cur = head;
         for (int i = 0; i < index; i++)
